@@ -21,7 +21,7 @@ setTracingDisabled(true);
 const helloAgent = new Agent({
   name: 'Hello Agent',
   instructions: 'You are an agent that always says hello world',
-  model: "llama-3.3-70b-versatile", // a Groq model
+model: "openai/gpt-oss-120b",
 });
 
 run(helloAgent, 'Hey there, my name is aakrit')
